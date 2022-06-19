@@ -21,18 +21,7 @@ export const Container = styled.div`
     line-height: 36px;
   }
 
-  ${props =>
-    props.isFocused &&
-    css`
-      color: #ff9000;
-      border-color: #ff9000;
-    `}
-
-  ${props =>
-    props.isFilled &&
-    css`
-      color: #ff9000;
-    `}
+  
 
   input {
     flex: 1;
